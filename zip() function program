@@ -1,0 +1,6 @@
+Hero = ["maheshbabu","varuntej","nani","vijay"]
+Heroine = ["saipallavi","lavanya","kajal","rashmika"]
+Movie = ["fidaa","geethagovindham","mistar","magadeera"]
+
+pairs = zip(Hero,Heroine,Movie)
+print(list(pairs))
