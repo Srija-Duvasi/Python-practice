@@ -1,0 +1,4 @@
+fruits_names = ["Mamidipandu","Panasapandu","Jamapandu"]
+
+for index, name in enumerate (fruits_names, start = 101):
+    print(index, name)
