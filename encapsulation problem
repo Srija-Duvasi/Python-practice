@@ -1,0 +1,17 @@
+class Bike:
+    No_tyre = 2
+    def __init__(self, name,price):
+        self.bike_name = name 
+        self.price = price
+        
+
+    def display(self):
+        print(self.No_tyre,self.bike_name,self.price)
+
+obj1 = Bike("Duke",2.5)
+
+obj1.display()
+
+print(obj1.No_tyre)
+print(obj1.bike_name)
+print(obj1.price)
