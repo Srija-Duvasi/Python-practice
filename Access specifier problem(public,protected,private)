@@ -1,0 +1,16 @@
+class marvels:
+    def __init__(self,name,power,weapon):
+        self.name = name 
+        self._power = power
+        self.__Ayudham = weapon 
+
+    def show(self):
+        print(self.name,self._power,self.__Ayudham)
+        
+obj1 = marvels("thor",1000,"Hammer")
+obj1.show()
+
+print(obj1.name)
+print(obj1._power)
+
+print(obj1._marvels__Ayudham) 
