@@ -1,0 +1,14 @@
+class hyd_food:
+    taste = "very very very spicy"
+
+    def Biryani(self):
+        print("very very very tasty Biryani")
+
+
+class PistaHouse(hyd_food):
+    pass
+
+obj1_child = PistaHouse() # it is the object of child class
+
+print(obj1_child.taste)
+obj1_child.Biryani()
